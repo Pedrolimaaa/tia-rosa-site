@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wi-Fi | Coffee Shops Tia Rosa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      flex: 1;
+    }
+
+    body {
+      background-color: #fffaf3;
+      color: #3e2f1c;
+      line-height: 1.6;
+    }
+
+    header {
+      background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    nav {
+      background-color: #3e2f1c;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #c0a060;
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #a86d2d;
+    }
+
+    section p {
+      font-size: 1.1em;
+      background-color: #f8ecd9;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      background-color: #3e2f1c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      section {
+        padding: 20px 15px;
+      }
+      nav a {
+        margin: 8px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Wi-Fi Gratuito</h1>
+      <p>Conecte-se com conforto</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cardapio.html">Cardápio</a>
+      <a href="wifi.html">Wi-Fi</a>
+      <a href="contato.html">Contato</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="novidades.html">Novidades</a>
+    </nav>
+
+    <section>
+      <h2>Como acessar nosso Wi-Fi</h2>
+      <p>
+        Conecte-se à rede <strong>CoffeeTiaRosa</strong> e solicite a senha ao atendente.<br>
+        Navegue à vontade enquanto aprecia nosso delicioso café!
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Coffee Shops Tia Rosa. Todos os direitos reservados. - Criado por Pedro777</p>
+  </footer>
+</body>
+</html>
